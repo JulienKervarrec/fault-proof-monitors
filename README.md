@@ -86,3 +86,7 @@ flowchart TD
     A[Fault Proof Detection Parent] -->|Invalid Output Detected| B[Alert Triggered]
     B -->|Deploy| C[Fault Proof Detection Child]
 ```
+
+## Parcours francais
+
+Une lecture pedagogique en francais de ce depot est disponible dans [docs/fr](./docs/fr) : presentation du langage gate, des trois workflows de deploiement, et explication detaillee de cinq des dix moniteurs (liveness, integrite, correction cross-chain, securite des bonds).
